@@ -33,7 +33,7 @@
             from pyodide import to_js
             from pyodide.console import PyodideConsole, repr_shorten, BANNER
             import __main__
-            BANNER = "Welcome to the Pyodide terminal emulator 🐍\\n" + BANNER
+            BANNER = "Python Terminal using webassembly!!!\\n" + BANNER
             pyconsole = PyodideConsole(__main__.__dict__)
             async def await_fut(fut):
               return to_js([await fut], depth=1)
